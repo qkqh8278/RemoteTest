@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: body
+  m_Shader: {fileID: 4800000, guid: 85a2da58303e92341ae610795e1ce634, type: 3}
+  m_ShaderKeywords: _USEGGX_ON _VISIBILLITY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: db6735564ec4eff49a1deb42a6ac0a73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DYEING_TEX_BLUSHER:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DYEING_TEX_FREKLES:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DYEING_TEX_LINE:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DYEING_TEX_LIP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DYEING_TEX_SHADOW:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DYEING_TEX_TATOO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 375e184ca3503a54d9a9268f3fc494b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 990a87b806cd0f74cae10eb6ada552c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerlMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerlTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutout: 0
+    - _AlphaTest: 0
+    - _AoStrength: 0.5
+    - _Attenuation: 1
+    - _Blend: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DYEING_AMOUNT_BLUSHER: 1
+    - _DYEING_AMOUNT_FREKLES: 1
+    - _DYEING_AMOUNT_LINE: 1
+    - _DYEING_AMOUNT_LIP: 0
+    - _DYEING_AMOUNT_SHADOW: 1
+    - _DYEING_AMOUNT_TATOO: 1
+    - _DYEING_AREA_BLUSHER: 0.5
+    - _DYEING_AREA_FREKLES: 0.5
+    - _DYEING_AREA_LINE: 0.5
+    - _DYEING_AREA_LIP: 0.5
+    - _DYEING_AREA_SHADOW: 0.5
+    - _DYEING_AREA_TATOO: 0.5
+    - _DYEING_OVERLAY_BLUSHER: 0
+    - _DYEING_OVERLAY_FREKLES: 0
+    - _DYEING_OVERLAY_LINE: 0
+    - _DYEING_OVERLAY_LIP: 0
+    - _DYEING_OVERLAY_SHADOW: 0
+    - _DYEING_OVERLAY_TATOO: 0
+    - _DYEING_ROUGHNESS_BLUSHER: 1
+    - _DYEING_ROUGHNESS_FREKLES: 1
+    - _DYEING_ROUGHNESS_LINE: 1
+    - _DYEING_ROUGHNESS_LIP: 1
+    - _DYEING_ROUGHNESS_SHADOW: 1
+    - _DYEING_ROUGHNESS_TATOO: 1
+    - _DYEING_SMOOTH_AREA_BLUSHER: 0.5
+    - _DYEING_SMOOTH_AREA_FREKLES: 0.5
+    - _DYEING_SMOOTH_AREA_LINE: 0.5
+    - _DYEING_SMOOTH_AREA_LIP: 0.5
+    - _DYEING_SMOOTH_AREA_SHADOW: 0.5
+    - _DYEING_SMOOTH_AREA_TATOO: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DirectionalFresnel: 0
+    - _Distortion: 1
+    - _DstBlend: 0
+    - _EmissionEdgeSmooth: 1
+    - _EmissionIntensity: 1
+    - _EnvironmentReflections: 1
+    - _FresnelIntensity: 0.2
+    - _FresnelSmooth: 0.25
+    - _FresnelThreshold: 0.8
+    - _GIIntensity: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _MetalFresnelIntensity: 1
+    - _MetalReflProbeIntensity: 1
+    - _Metallic: 0
+    - _MidSmooth: 0.21
+    - _MidThreshold: 0.679
+    - _Mode: 0
+    - _NormalGFlip: 0
+    - _NormalStrength: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PerlIntensity: 0
+    - _PerlMaskSmooth: 0.25
+    - _PerlMaskThreshold: 0.5
+    - _PerlPower: 64
+    - _QueueOffset: 0
+    - _ReceiveShadowAmount: 1
+    - _ReceiveShadows: 1
+    - _ReflProbeBlurAmount: 1.5
+    - _ReflProbeIntensity: 1
+    - _ReflectSmooth: 0
+    - _ReflectThreshold: 0
+    - _SSSAmbient: 1
+    - _SSSPower: 1
+    - _SSSScale: 1
+    - _ShadowSmooth: 0.25
+    - _ShadowThreshold: 0.66
+    - _Smoothness: 1.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 4.63
+    - _SpecularSmooth: 0.5
+    - _SpecularThreshold: 0.95
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _TATOO_ROTATION: 0
+    - _TATOO_SCALE: 1
+    - _UVSec: 0
+    - _UseGGX: 1
+    - _Visibillity: 1
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BLUSHER_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.5380651, g: 0.5380651, b: 0.5380651, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FREKLES_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LINE_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _LIP_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _MidColor: {r: 0.9333334, g: 0.9294118, b: 0.9294118, a: 1}
+    - _PerlColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PerlSpecularOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflProbeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ReflectColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SHADOW_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 0.8980393, g: 0.30980393, b: 0.1254902, a: 0}
+    - _ShadowColor: {r: 0.50980395, g: 0.42352945, b: 0.42352945, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TATOO_CENTER: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _TATOO_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _TATOO_OFFSET: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8299177542916697880
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4

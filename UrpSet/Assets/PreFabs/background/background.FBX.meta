@@ -6,7 +6,52 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BACK
+    second: {fileID: 2100000, guid: f50abff5fb5a19640a28b7d9a6d980b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontColor
+    second: {fileID: 2100000, guid: bb47a0201826eff46983dced6ca11301, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material19
+    second: {fileID: 2100000, guid: b767072e7d1b4984786f0b1b5d2da919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material22
+    second: {fileID: 2100000, guid: 003eb0204da137e4292e19cde4bac29d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Color_M00_3
+    second: {fileID: 2100000, guid: e5f6d6779777e154997497d328a9bd93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Color_M00_8
+    second: {fileID: 2100000, guid: 9566ecc17621af94bb64a4ca240f922d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Color_M00_8.001
+    second: {fileID: 2100000, guid: d66df497d62c7a94198c5ece14aa5e8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Color_M00_8.002
+    second: {fileID: 2100000, guid: 4a425c543dbec2b4998667664bc30ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Color_M00_8.003
+    second: {fileID: 2100000, guid: 1c6f0b2be61126740a7baa18a7adb815, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

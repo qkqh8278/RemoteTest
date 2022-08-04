@@ -6,7 +6,92 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYEBROW
+    second: {fileID: 2100000, guid: f65ff13ae307c20428b0140109b1b61f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYELASHES
+    second: {fileID: 2100000, guid: e326e88c717de894489aed34c4654b19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYESHADOW
+    second: {fileID: 2100000, guid: 94064fa14f12b314781ed2ad77a3882e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FACE
+    second: {fileID: 2100000, guid: 7d1bea18a2cd8bb4d8874a341da3c8d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_AREA_22R_EA003
+    second: {fileID: 2100000, guid: 313ba89eca66e924680453abd4c847dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_BM_21SS_P002_defaultMat
+    second: {fileID: 2100000, guid: b2be738748708ae41824ce8a8fe5a4a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_BM_21SS_SH001_300
+    second: {fileID: 2100000, guid: 60f45554ad9a2b348929ca7907e41a1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_BM_21SS_SH001_301
+    second: {fileID: 2100000, guid: c1dc2a8f7c4f1694d97ebe916fcc723f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_BM_21SS_T001_00
+    second: {fileID: 2100000, guid: fc77143fe54097e4297877e2303f3065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_BM_21SS_T001_02
+    second: {fileID: 2100000, guid: 2c82fc830dd45b4429b3aa764bdd72fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_HAIR_1030001
+    second: {fileID: 2100000, guid: 514b9012b87dee14b880b8300769ceb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_MIU_22SS_BG001
+    second: {fileID: 2100000, guid: e9222d2bfbbd2a146bef7ad612802ae8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F_PRD_22SS_O001
+    second: {fileID: 2100000, guid: db504459b15059d408f336b881605c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #7114
+    second: {fileID: 2100000, guid: e11c9be3e43aa9d42a7832550b9db078, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TEETH
+    second: {fileID: 2100000, guid: a024d5ea655bf784b9a4ad0e446c32e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 1ef1c8e15124fc2468535357c83d073d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat
+    second: {fileID: 2100000, guid: 951965e19e70441459504b46eb4c4d0b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
